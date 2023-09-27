@@ -1,5 +1,5 @@
 # dev_test_giskard
-This is a developer test for a tech interview. You can find the subject here : https://gisk.ar/jobs-software-test. It has a backend and frontend part. It is still a work in progress, I still have to integrate the backend to the frontend.
+This is a developer test for a tech interview. You can find the subject here : https://gisk.ar/jobs-software-test. It has a backend and frontend part. It is still a work in progress, as I have to integrate the backend to the frontend. I aim to enable the launching of R2D2.py script from the frontend CLI.
 
 ## backend demo
 
