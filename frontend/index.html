@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Millenium Falcon WebApp</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Welcome to the Millenium Falcon onboard computer !</h1>
+	                        <form class="box" method="post" action="" enctype="multipart/form-data">
+                                <div class="box__input">
+                                    <input class="" ass="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                                </div>
+                            </form>
+                            <p class="hero-paragraph"> Upload the data intercepted by the rebels to my mainframe and ask R2-D2 (the CLI) to dive into my maps of the universe and C3-P0 will tell you the odds of arriving to Endor before the evil empire.</p>
+                            <script>
+                            $('p').terminal({
+                                give_me_the_odds: function() {
+                                    //$.ajax({
+                                        type: "POST"
+                                        url : 'test.py'
+                                        //data : {param : input}
+                                        //success: function(data){
+                                            
+                                       //}
+                                    //});
+                                }
+                                //}
+                            }, {
+                                greetings: 'Millenium Falcon'
+                            });
+                            </script>
+						</div>
+						<div class="hero-figure anime-element">
+							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
+								<rect width="528" height="396" style="fill:transparent;" />
+							</svg>
+						</div>
+                    </div>
+                </div>
+            </section>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
+</html>
