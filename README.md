@@ -3,10 +3,9 @@ This is a developer test for a tech interview. You can find the subject here : h
 
 ## backend demo
 
-To test the backend, download the backend file and you can test the R2D2.py script.
+To test the backend, download the backend file and you can test the R2D2.py script. It will output the odds of reaching Endor before the death star in percentages.
 ### example : 
 > python R2D2.py -f example1/millennium-falcon.json -e example1/empire.json
-It will output the odds of reaching Endor before the death star in percentages.
 
 ## frontend demo
 Open in browser the index.html file.
